@@ -26,6 +26,7 @@ set (log4cplus_sources
   loglevel.cxx
   loglog.cxx
   mdc.cxx
+  myproject.cxx
   ndc.cxx
   nullappender.cxx
   objectregistry.cxx

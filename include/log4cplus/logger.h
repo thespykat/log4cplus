@@ -27,6 +27,8 @@
 
 #include <log4cplus/config.hxx>
 
+#include <log4cplus/myproject.h>
+
 #if defined (LOG4CPLUS_HAVE_PRAGMA_ONCE)
 #pragma once
 #endif
@@ -302,6 +304,7 @@ namespace log4cplus
         friend class log4cplus::Hierarchy;
         friend class log4cplus::HierarchyLocker;
         friend class log4cplus::DefaultLoggerFactory;
+        friend class MyLoggerFactory;
     };
 
 
